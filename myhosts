@@ -1,6 +1,10 @@
 [mywebserver]
-172.31.18.25
-172.31.17.211
+172.31.18.25     
+172.31.17.211    
+172.31.18.227   
+                 
+
+
 
 
 
@@ -10,6 +14,3 @@
 172.31.17.214
 
 
-[mywebserver:vars]
-myopenjdk8forubuntu= openjdk-8-jre
-myopenjdk8forRedHat= java-1.8.0-openjdk
