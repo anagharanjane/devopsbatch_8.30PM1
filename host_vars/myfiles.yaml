@@ -1,5 +1,5 @@
 ---
-- hosts: 34.209.133.0
+- hosts: 172.31.18.25     
   become: yes
   tasks:
     - name: i want to create a file in a ubuntu server
