@@ -3,16 +3,19 @@
   become: yes
   tasks:
     - name: i want to install tree
-     apt:
+       apt:
+        name: tree
+        state: present
+        tags: mytree
 
    - name: i want to install wget
-    apt:
+     apt:
       name: wget
       state : present
       tags : mywget
 
   - name: i want to install git
-    apt : 
+    apt: 
       name: git
       state: present
       tags: mygit
