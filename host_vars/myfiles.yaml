@@ -1,8 +1,8 @@
 ---
-- hosts: 172.31.18.25     
+- hosts: 172.31.18.227
   become: yes
   tasks:
     - name: i want to create a file in a ubuntu server
       file:
-        path: /home/aanu/mytestfile
+        path: /home/aanu/mytestfile1
         state: touch
